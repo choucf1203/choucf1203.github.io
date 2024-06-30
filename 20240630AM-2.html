@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人簡介網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            background: #fff;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            text-align: center;
+        }
+        .links a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        .photos img {
+            width: 100px;
+            height: 100px;
+            margin: 0.5em;
+            border-radius: 50%;
+        }
+        .activity {
+            list-style: none;
+            padding: 0;
+        }
+        .activity li {
+            background: #eee;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的個人簡介網頁</h1>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>個人資訊</h2>
+            <p>姓名: 張三</p>
+            <p>職業: 教師</p>
+            <p>興趣: 教育科技、AI、機器學習</p>
+        </section>
+        <section class="section">
+            <h2>社交媒體連結</h2>
+            <div class="links">
+                <a href="https://www.facebook.com/profile" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com/profile" target="_blank">Twitter</a>
+                <a href="https://www.linkedin.com/in/profile" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+        <section class="section">
+            <h2>個人照片</h2>
+            <div class="photos">
+                <img src="photo1.jpg" alt="個人照片1">
+                <img src="photo2.jpg" alt="個人照片2">
+            </div>
+        </section>
+        <section class="section">
+            <h2>活動紀錄</h2>
+            <ul class="activity">
+                <li>2024年1月：參加教育科技大會</li>
+                <li>2023年12月：舉辦AI教學研討會</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
